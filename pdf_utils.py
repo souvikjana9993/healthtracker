@@ -8,7 +8,7 @@ import re  # Import the regular expression module
 load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-model_id = "gemini-2.0-flash-exp"  # or appropriate model
+model_id = "gemini-2.0-pro-exp-02-05"
 
 
 def extract_report_data(pdf_path):
@@ -43,6 +43,7 @@ def extract_report_data(pdf_path):
 
     5. **If NO pages contain this table-like structure, return an empty JSON object: `{}`** or a message saying no table found. Do not throw an error if no tables are found, simply return the empty object.
     6. **Return valid JSON.**
+    7. **At the end remove JSON entries which don't make sense**
     """
 
     try:
