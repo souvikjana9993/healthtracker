@@ -27,7 +27,7 @@ def extract_report_data(pdf_path):
 
     **Instructions:**
 
-    1. **Analyze each page** of the uploaded PDF.
+    1. **Analyze each page** of the uploaded PDF and **align the pdf if needed** from parsing.
     2. **Identify pages that contain a clear table-like structure** with columns like Parameter Name, Result, Unit, and Reference Range. Look for clear visual separation of data into rows and columns. The presence of a "normal" range or reference range is crucial.
     3. **Ignore pages that do NOT contain such a table.** This includes cover pages, consent forms, disclaimers, or pages with mostly text and no organized table structure.
     4. **If and only if at least one page has a table has table structure**, proceed to extract the following data from *all* pages that have the table, applying these additional rules:

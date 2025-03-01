@@ -27,7 +27,6 @@ authenticator = stauth.Authenticate(
     auth_config["cookie"]["expiry_days"],
 )
 
-
 def fix_and_load_reports(ORIGINAL_EXTRACTS_DIR, RENAMED_EXTRACTS_DIR):
     """Loads all JSON reports from the given directory and returns a DataFrame."""
     fix_parameters_across_json(ORIGINAL_EXTRACTS_DIR, RENAMED_EXTRACTS_DIR)
