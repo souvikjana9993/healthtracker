@@ -221,7 +221,7 @@ if st.session_state["authentication_status"]:
                 with st.spinner(f"Analyzing {patient}'s history..."):
                     try:
                         summary = get_overall_summary(
-                            patient, reports_df[reports_df["patient_name"] == patient]
+                            patient, reports_df
                         )
                         st.markdown(
                             f"""

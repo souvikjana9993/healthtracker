@@ -12,4 +12,12 @@ credentials:
       email: sayani@testmail.com
       name: Sayani
       password: abc456
+    manas:
+      email: manas@testmail.com
+      name: Manas
+      password: abc123
+    sanghita:
+      email: sanghita@testmail.com
+      name: Sanghita
+      password: abc123
   

@@ -113,5 +113,17 @@
     "Follicle Stimulating Hormone (FSH)": "Follicle-Stimulating Hormone",
     "MCH": "MCH",
     "Absolute Lymphocyte Count": "Absolute Lymphocyte Count",
-    "MCV": "MCV"
+    "MCV": "MCV",
+    "PCV": "Hematocrit",
+    "Haemoglobin": "Hemoglobin",
+    "VITAMIN D": "Vitamin D",
+    "UREA": "Urea",
+    "TSH (CMIA)": "TSH",
+    "SERUM CREATININE": "Creatinine",
+    "Total WBC Count": "White Blood Cell Count",
+    "RBC Count": "Red Blood Cell Count",
+    "BLOOD SUGAR/GLUCOSE (F)": "Fasting Glucose",
+    "URIC ACID": "Uric Acid",
+    "GLUCOSE RANDOM": "Random Glucose",
+    "CHOLESTEROL (TOTAL)": "Total Cholesterol"
 }

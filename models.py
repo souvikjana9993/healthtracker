@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, AliasChoices  # <-- Use AliasChoices
+from pydantic import BaseModel, Field, AliasChoices
 from typing import Optional
 
 
@@ -23,7 +23,7 @@ class ReferenceInterval(BaseModel):
 
 class Parameter(BaseModel):
     name: str = Field(..., description="Name of the parameter")
-    result: str = Field(..., description="Measured result")
+    result: float = Field(..., description="Measured result")  # Changed to float
     unit: Optional[str] = Field(default=None, description="Unit of measurement")
     reference_interval: ReferenceInterval = Field(..., description="Reference interval")
 

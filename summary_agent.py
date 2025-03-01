@@ -12,7 +12,7 @@ logging.basicConfig(
 
 # Initialize the client
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-model_id = "gemini-2.0-flash-exp"
+model_id = "gemini-2.0-pro-exp-02-05"
 
 
 def get_overall_summary(patient_name, all_reports_df):
