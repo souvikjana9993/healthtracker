@@ -43,7 +43,7 @@ def extract_report_data(pdf_path):
 
     5. **If NO pages contain this table-like structure, return an empty JSON object: `{}`** or a message saying no table found. Do not throw an error if no tables are found, simply return the empty object.
     6. **Return valid JSON.**
-    7. **At the end remove JSON entries which don't make sense**
+    7. **At the end remove JSON entries which don't make sense and dont have reference values**
     """
 
     try:

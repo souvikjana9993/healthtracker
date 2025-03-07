@@ -60,6 +60,7 @@ def get_overall_summary(patient_name, all_reports_df):
     7. Keep summary structured but conversational (max 500 words)
     8. Use markdown formatting for headings and bullet points
     9. Analyse the combination of parameters deeply for holistic health insights
+    10. PRIORITISE THE TREND OF THE PARAMETERS WITH DATES IN YYYY-MM-DD FORMAT, FOCUS ON WHAT HAS CHANGED FOR THE BETTER OR WORSE
 
     Format:
     # Overall Health Summary for {patient_name}
@@ -67,9 +68,12 @@ def get_overall_summary(patient_name, all_reports_df):
     ## Key Concerns
     - List of critical parameters with values/dates
 
+    ## Trend Analysis
+    - Focus on what paramter has improved and went wrong or what has improved 
+        
     ## Risk Analysis
     - Potential health risks based on abnormal values
-
+    
     ## Recommended Actions
     - Priority lifestyle changes
     - Suggested medical follow-ups
